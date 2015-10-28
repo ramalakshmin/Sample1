@@ -1,5 +1,7 @@
 Imports Gss.Veracious.SL.RD.Contracts
+' Create IMicrParser
 Public Interface IMicrParser
+
     Sub Clear()
     Sub Parse(ByVal pMicrData As String)
     Function CalculateCheckdigit(ByVal pRoutingNo As String, ByVal pAccountNo As String) As Integer
